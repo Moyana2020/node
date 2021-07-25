@@ -2,7 +2,7 @@ const {sum} = require('./helper');
 const http = require('http');
 
 const server = http.createServer((req,res) => {
-res.end("Moyana doing node.js");
+res.end("Moyana doing node.js updated");
 } );
 
 server.listen(3000);
