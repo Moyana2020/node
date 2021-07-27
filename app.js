@@ -1,8 +1,12 @@
-const express = require('express');
-const app = express();
+const fs = require('fs');
+const fileName = "target.txt";
 
-app.get('/', (req,res) => {
-res.send("moyana here")
-});
+fs.readFile(fileName, (err,data)=>{
+    if(err){
+        console.log(err);
+    }
+    
+    console.log(data.toString())
+})
 
-app.listen(3000)
+console.log("Node js super cool stuff");
