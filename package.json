@@ -1,23 +1,23 @@
 {
-  "name": "node",
+  "name": "nodejs-express-mongodb",
   "version": "1.0.0",
-  "description": "Learning node js",
-  "main": "app.js",
+  "description": "Nodejs REST CRUD API",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Moyana2020/node.git"
-  },
-  "author": "Sikululekile Moyana",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "Moyana",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Moyana2020/node/issues"
-  },
-  "homepage": "https://github.com/Moyana2020/node#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "nodemon": "^2.0.12"
+    "mongoose": "^6.0.2"
   }
 }
